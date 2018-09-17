@@ -1,8 +1,2 @@
-# Autodetect text files
+# Autodetect text files and force LF line endings (requires git 2.10 or higher)
 * text=auto eol=lf
-
-#..unless the name matches the following overriding patterns
-
-# Definitively binary files (don't touch line endings)
-*.jpg binary
-*.png binary
