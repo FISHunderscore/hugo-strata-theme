@@ -1,0 +1,13 @@
+# Autodetect text files
+* text=auto
+
+#..unless the name matches the following overriding patterns
+
+# Definitively text files
+*.md text
+*.js text
+*.htc text
+
+# Definitively binary files (don't touch line endings)
+*.jpg binary
+*.png binary
